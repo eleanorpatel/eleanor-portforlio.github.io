@@ -10,8 +10,8 @@ let displayState = 0;
 function changeProject(){
   let cs = (displayState % 2).toString()
   name.textContent = projectNames[cs]
-  desctext.textContent = `This is the description for project${cs}`
-  changeimage.src = `project${cs}.png`
+  desctext.textContent = `This is the description for project${cs + 1}`
+  changeimage.src = `project${cs + 1}.png`
   displayState += 1
 };
 
