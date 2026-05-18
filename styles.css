@@ -13,3 +13,8 @@ header{
   top: 0;
   position: fixed;
 }
+
+#changeImage{
+  width: 500px;
+  height: 350px;
+}
