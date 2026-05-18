@@ -7,7 +7,7 @@ const next = document.getElementById("next")
 let displayState = 0;
 
 function changeProject(){
-  let cs = (displayState%2).toString()
+  let cs = (displayState % 2).toString()
   desctext.textContent = `This is the description for project${cs}`
   changeimage.document.body.style.src = `project${cs}.png`
   displayState += 1
