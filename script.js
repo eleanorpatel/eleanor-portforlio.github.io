@@ -1,4 +1,3 @@
-const description = document.getElementById("description")
 const name = document.getElementById("name")
 const desctext = document.getElementById("desctext")
 const changeimage = document.getElementById("changeimage")
